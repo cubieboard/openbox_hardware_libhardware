@@ -73,6 +73,15 @@ __BEGIN_DECLS
 #define AUDIO_PARAMETER_STREAM_FRAME_COUNT "frame_count"
 #define AUDIO_PARAMETER_STREAM_INPUT_SOURCE "input_source"
 
+// star add for raw data output
+#define AUDIO_PARAMETER_RAW_DATA_OUT "raw_data_output"
+
+// star add for auido device management
+#define AUDIO_PARAMETER_DEVICES_IN "audio_devices_in"						// read only
+#define AUDIO_PARAMETER_DEVICES_OUT "audio_devices_out"						// read only
+#define AUDIO_PARAMETER_DEVICES_IN_ACTIVE "audio_devices_in_active"			// read/write
+#define AUDIO_PARAMETER_DEVICES_OUT_ACTIVE "audio_devices_out_active"		// read/write
+
 /**************************************/
 
 /* common audio stream parameters and operations */
